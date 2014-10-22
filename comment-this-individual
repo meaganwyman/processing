@@ -1,13 +1,20 @@
+//Changes the size of circles
 int num = 60;
 float mx[] = new float[num];
 float my[] = new float[num];
 
+//Changes the size of the screen.
 void setup() {
   size(640, 360);
+ //Chagnes the color of the circles the lower the number the circle becomes faded and grey.
   noStroke();
   fill(255, 153); 
 }
 
+//1500 changes the background color to a bright blue
+//909000 changes the background to teal.
+//30900 changes the background to lime green
+//what this does is changes the background color 
 void draw() {
   background(51); 
   
